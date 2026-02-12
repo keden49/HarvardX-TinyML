@@ -1,0 +1,2 @@
+# Repository Overview 
+This repository reflects my journey through the Tiny Machine Learning (TinyML) professional course, offered through a collaboration between Harvard University and edX. This coursework explores the intersection of machine learning and embedded systems, focusing on deploying efficient models like neural networks onto resource-constrained hardware. By mastering concepts such as backpropagation and data science fundamentals, I am building the skills to bring intelligence to the world’s smallest devices.
