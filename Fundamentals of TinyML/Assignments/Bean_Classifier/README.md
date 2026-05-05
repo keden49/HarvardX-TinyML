@@ -20,19 +20,19 @@ To find the most effective model, I experimented with four different model archi
 Below are the performance charts for each model version.
 ### Training vs. Validation Accuracy
 
-*VERSION 1 PERFOMANCE*
+#### VERSION 1 PERFOMANCE
 
 <img width="580" height="422" alt="Image" src="https://github.com/user-attachments/assets/e2ed81a7-c64c-4fff-ae83-b76cbf0ba05e" />
 
-*VERSION 2 PERFOMANCE*
+#### VERSION 2 PERFOMANCE
 
 <img width="566" height="441" alt="Image" src="https://github.com/user-attachments/assets/19d7d2a4-6d2d-44fa-baec-ec6dfa5546d0" />
 
-*VERSION 3 PERFOMANCE*
+#### VERSION 3 PERFOMANCE
 
 <img width="587" height="456" alt="Image" src="https://github.com/user-attachments/assets/412e2f8e-a242-47ad-9837-177d24b30827" />
 
-*VERSION 4 PERFOMANCE*
+#### VERSION 4 PERFOMANCE
 
 <img width="583" height="459" alt="Image" src="https://github.com/user-attachments/assets/ccb7a8b7-49bd-4537-8add-02116a670597" />
 
@@ -42,7 +42,7 @@ Below are the performance charts for each model version.
 ---
 
 ##  Why Version 4 Performed Best
-My analysis shows that the combination of a `Flatten` layer and the absence of `Dropout` created the ideal environment for this specific dataset.
+The analysis shows that the combination of a `Flatten` layer and the absence of `Dropout` created the ideal environment for this specific dataset.
 
 ### 1. Flattening vs. Global Pooling (Information Density)
 The `GlobalAveragePooling2D` used in Versions 1 and 2 works by taking the average value of each feature map. While this reduces the number of parameters (making the model smaller), it also discards significant spatial information. 
